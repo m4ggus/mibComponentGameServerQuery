@@ -1,0 +1,12 @@
+# OS specific files
+.thumbs.db
+.DS_Store
+
+# IDE project settings
+/.idea/
+
+# Composer
+/vendor/
+/composer.lock
+/composer.phar
+

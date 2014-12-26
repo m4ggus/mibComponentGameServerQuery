@@ -1,0 +1,22 @@
+{
+  "name": "mib/gameserverquery",
+  "description": "Library for querying game servers, extended by modules to support various games.",
+  "type": "library",
+  "keywords": [ "gameserver" , "information", "server", "query"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mib\\Component\\GameServerQuery\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/m4ggus/mibComponentNetwork"
+    }
+  ],
+  "require": {
+    "mib/network": "dev-master"
+  }
+
+}
